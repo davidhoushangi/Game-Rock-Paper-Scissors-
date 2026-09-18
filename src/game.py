@@ -12,12 +12,13 @@ class RockPaperScissors:
     4. play
 
     """
-    def __init__(self, name):
+    def __init__(self, name: str):
         self.choices = ["rock", "paper", "scissors"]
         self.name = name
 
     def get_player_choice(self):
-        """This function get the players' choice.
+        """
+        This function get the players' choice.
         there are only three choices
 
         Returns:
@@ -32,7 +33,8 @@ class RockPaperScissors:
 
         
     def get_computer_choice(self):
-        """This funtion gets the computer's choice using the random built in function.
+        """
+        This funtion gets the computer's choice using the random built in function.
 
         Returns:
             computer's chice out or three possible options.
@@ -40,7 +42,8 @@ class RockPaperScissors:
         return random.choice(self.choices)        
 
     def decide_winner(self, user_choice, computer_choice):
-        """This function determines who is the winner, you (user) or the computer,
+        """
+        This function determines who is the winner, you (user) or the computer,
         based on the cpmparison between choices.
 
         Args:
