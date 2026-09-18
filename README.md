@@ -1,4 +1,6 @@
-# Game-Rock-Paper-Scissors-
+# Game-Rock-Paper-Scissors
+<img width="722" height="360" alt="image" src="https://github.com/user-attachments/assets/95aef20f-7af4-4477-891a-c9aa9ab8041a" />
+
 A classic Rock-Paper-Scissors game built with Python. Play against a computer opponent with randomized moves in your terminal.
 
 ## Project Description
