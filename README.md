@@ -30,10 +30,15 @@ python 3.7+
 Because the game file is inside the src folder, you need to navigate to that folder or run it from the root directory.
 
 ### step 1
+Clone the repo
+```bash
+https://github.com/davidhoushangi/Game-Rock-Paper-Scissors-.git
+```
+### step 2
 ```bash
 python src/game.py
 ```
-### step 2
+### step 3
 ```bash
 cd src
 python game.py
